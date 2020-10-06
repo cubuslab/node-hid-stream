@@ -1,11 +1,10 @@
 {
   "name": "node-hid-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stream data from HID device in Node.js",
   "main": "lib/node-hid-stream.js",
   "engines": {
-    "npm": ">=3",
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "ci": "npm run coverage && npm run lint",
@@ -20,14 +19,14 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint": "^6.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.0.1",
     "istanbul": "^0.4.5",
-    "jasmine": "^2.5.2",
-    "nodemon": "^1.11.0",
+    "jasmine": "3.4.0",
     "mockery": "^2.0.0",
-    "proxyquire": "^1.7.10"
+    "nodemon": "^1.19.1",
+    "proxyquire": "2.1.3"
   },
   "repository": {
     "type": "git",
